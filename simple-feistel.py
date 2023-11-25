@@ -61,8 +61,8 @@ class Feistel(object):
 feistel = Feistel()
     
 # Exemplo de uso:
-text = "0010111101110100"  # Bloco de entrada binário de 16 bits
-master_key = "1010101010101010"  # Chave mestra binária de 16 bits
+text = "0010111101110100" #Entrada
+master_key = "1010101010101010" #Chave
 n_rounds = 9
 
 cipher_text = feistel.feistel_cipher(text, n_rounds, master_key)
